@@ -9,9 +9,8 @@ config.autoAddCss = false;
 function MyApp({ Component, pageProps }) {
   return(<div className='layout'>
   <head>
-  <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
-  <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
-  <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+  <title>CrazyNFT</title>
+  <img src="/logo" />
 </head>
   <Navbar />
   <Component {...pageProps} />

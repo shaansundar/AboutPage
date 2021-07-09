@@ -20,8 +20,8 @@ module.exports = {
     },
     extend: {
       spacing: {
-        'buttonwidth': '225px',
-        'buttonheight': '75px',
+        'buttonwidth': '190px',
+        'buttonheight': '50px',
       }
      }
   }
