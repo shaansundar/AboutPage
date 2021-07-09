@@ -1,6 +1,16 @@
 import React from "react";
+import members from './team.json';
+import MakeTeamMember from "./MakeTeamMember";
 
 function AboutUs() {
+  // let k = [];
+  // for(let i in members) {
+  //   k.push(MakeTeamMember(members[i]));
+  //   }
+  // console.log(k)
+  const listofteam = members.map((member)=>
+ MakeTeamMember(member)
+  );
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
@@ -11,6 +21,14 @@ function AboutUs() {
           <p className="txt">
             A bunch of CrazyGEEKS on a CrazyMISSION
           </p>
+        </div>
+        <div className="flex flex-wrap -m-4">
+        <MakeTeamMember {... members[0]} />
+        <MakeTeamMember {... members[1]} />
+        <MakeTeamMember {... members[2]} />
+        <MakeTeamMember {... members[3]} />
+        <MakeTeamMember {... members[4]} />
+        <MakeTeamMember {... members[5]} />
         </div>
         {/* <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2">
