@@ -25,8 +25,8 @@ module.exports = {
     },
     extend: {
       spacing: {
-        'buttonwidth': '240px',
-        'buttonheight': '80px',
+        'buttonwidth': '225px',
+        'buttonheight': '75px',
       }
      }
   }
