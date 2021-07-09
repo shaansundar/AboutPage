@@ -41,6 +41,16 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.txt:hover{
+  font-family:"Comfortaa",cursive ;
+  color: darkslategray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display:table;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .heading{
   text-align: center;

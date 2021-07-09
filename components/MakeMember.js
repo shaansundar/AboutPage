@@ -1,18 +1,11 @@
-import React from "react";
 
-function AboutUs() {
-  return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="heading font-medium title-font text-gray-900 tracking-widest">
-            The Crazy Team
-          </h1>
-          <p className="txt">
-            A bunch of CrazyGEEKS on a CrazyMISSION
-          </p>
-        </div>
-        {/* <div className="flex flex-wrap -m-4">
+
+const MakeMember = () => {
+    for(i=0;i<length;i++) {
+        
+    }
+    return(
+        <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2">
             <div className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
               <img
@@ -33,11 +26,7 @@ function AboutUs() {
                 </span>
               </div>
             </div>
-          </div> 
-        </div>*/}
-      </div>
-    </section>
-  );
+          </div>
+        </div>
+    );
 }
-
-export default AboutUs;
