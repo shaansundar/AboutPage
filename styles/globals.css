@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
 
 html,
 body {
@@ -16,62 +16,66 @@ a {
 * {
   box-sizing: border-box;
 }
-.head{
+.head {
   width: 100%;
-  background-color:rgb(228, 241, 241) ;
+  background-color: rgb(228, 241, 241);
 }
-.txtw{
-  font-family:"Comfortaa",cursive ;
+.txtw {
+  font-family: "Comfortaa", cursive;
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: 16px;
-  display:table;
+  display: table;
   margin-left: auto;
   margin-right: auto;
 }
 
-.txt{
-  font-family:"Comfortaa",cursive ;
+.txt {
+  font-family: "Comfortaa", cursive;
   color: grey;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  display:table;
+  display: table;
   margin-left: auto;
   margin-right: auto;
 }
-.txt:hover{
-  font-family:"Comfortaa",cursive ;
+.txt:hover {
+  font-family: "Comfortaa", cursive;
   color: darkslategray;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
-  display:table;
+  display: table;
   margin-left: auto;
   margin-right: auto;
 }
 
-.heading{
+.heading {
   text-align: center;
-  font-family:"Comfortaa",cursive;
+  font-family: "Comfortaa", cursive;
   font-size: 90px;
   letter-spacing: 3px;
   color: #006260;
-
 }
-.para{
-  font-size:25px;
+.para {
+  font-size: 25px;
   color: #000000;
 }
 
-.heading1{
- 
-  font-family:"Comfortaa",cursive;
+.heading1 {
+  font-family: "Comfortaa", cursive;
   font-size: 35px;
   font-weight: 600;
-  
-  color: #006260;
 
+  color: #006260;
 }
 
+.font-comfortaa {
+  font-family: "Comfortaa", cursive;
+}
+
+.logo-l-cropped {
+  transform: translateX(-46px);
+}

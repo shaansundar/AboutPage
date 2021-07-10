@@ -1,5 +1,5 @@
 import React from "react";
-import members from './team.json';
+import members from "./team.json";
 import MakeTeamMember from "./MakeTeamMember";
 
 function AboutUs() {
@@ -8,9 +8,7 @@ function AboutUs() {
   //   k.push(MakeTeamMember(members[i]));
   //   }
   // console.log(k)
-  const listofteam = members.map((member)=>
- MakeTeamMember(member)
-  );
+  const listofteam = members.map((member) => MakeTeamMember(member));
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
@@ -18,17 +16,15 @@ function AboutUs() {
           <h1 className="heading font-medium title-font text-gray-900 tracking-widest">
             The Crazy Team
           </h1>
-          <p className="txt">
-            A bunch of CrazyGEEKS on a CrazyMISSION
-          </p>
+          <p className="txt">A bunch of CrazyGEEKS on a CrazyMISSION</p>
         </div>
         <div className="flex flex-wrap -m-4">
-        <MakeTeamMember {... members[0]} />
-        <MakeTeamMember {... members[1]} />
-        <MakeTeamMember {... members[2]} />
-        <MakeTeamMember {... members[3]} />
-        <MakeTeamMember {... members[4]} />
-        <MakeTeamMember {... members[5]} />
+          <MakeTeamMember {...members[0]} />
+          <MakeTeamMember {...members[1]} />
+          <MakeTeamMember {...members[2]} />
+          <MakeTeamMember {...members[3]} />
+          <MakeTeamMember {...members[4]} />
+          <MakeTeamMember {...members[5]} />
         </div>
         {/* <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2">
