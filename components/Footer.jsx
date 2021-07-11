@@ -3,15 +3,14 @@ import Link from "next/link";
 import {
   faLinkedinIn,
   faTwitter,
-  faDiscord,
-  faYoutube,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Icon({ icon, href }) {
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-5">
+      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-5">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -20,46 +19,53 @@ function Icon({ icon, href }) {
 
 const FooterLinkCol = ({ header, linkSet }) => (
   <div className=" w-60">
-    <h4 className="font-comfortaa text-2xl text-gray-dark my-3  font-semibold">
+    <h4 className="font-comfortaa text-2xl text-gray-gradlight my-5  font-semibold">
       {header}
     </h4>
     <ul>
       {linkSet.map((link) => (
         <Link href={link.href} key={`link-to-${link.href}`}>
-          <li className=" text-green-light text-lg my-1">{link.label}</li>
+          <li className="font-comfortaa text-green-dark text-lg my-2">{link.label}</li>
         </Link>
       ))}
     </ul>
   </div>
 );
 
+function Discord() {
+  return (
+    <Link href="#">
+      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark">
+      <img src="/icons-03.png" alt="An SVG of an eye" width="35px" height="35px" />
+      </div>
+    </Link>
+  );
+}
+
 export default function Footer() {
   return (
     <div className="min-w-full head py-8">
-      <div className="max-w-5xl m-auto w-full flex flex-col">
+      <div className=" m-navbarx  flex flex-col">
         <div className="w-full my-2 flex items-center justify-between">
           <Image
-            className="logo-l-cropped"
             src="/logo.png"
-            width={214.408}
-            height={100}
+            width={170} height={103}
           />
-          <div className="max-w-xs w-full flex flex-col">
-            <h4 className="font-comfortaa text-2xl text-gray-dark font-semibold">
+          <div className="" >
+            <h4 className="font-comfortaa text-right font-semibold">
+              <span className="footerconnect">
               Connect with us
+              </span>
             </h4>
-            <div
-              className="flex items-center"
-              style={{ transform: "translateY(16px)" }}
-            >
+            <div className="flex items-right mt-2 ml-iconmarginleft">
               <Icon icon={faLinkedinIn} href="#" />
               <Icon icon={faTwitter} href="#" />
-              <Icon icon={faDiscord} href="#" />
-              <Icon icon={faYoutube} href="#" />
+              <Icon icon={faTelegram} href="#" />
+              <Discord />
             </div>
           </div>
         </div>
-        <div className="w-full h-1 rounded-full bg-green-dark my-2" />
+        <div className="w-full h-1 rounded-full bg-green-dark mt-5" />
         <div className="flex w-full mt-2">
           {footerLinks.map((item, indx) => (
             <FooterLinkCol {...item} key={`link-col-${indx + 1}`} />

@@ -23,13 +23,29 @@ module.exports = {
         DEFAULT: '#c0ccda',
         light: '#e0e6ed',
         lightest: '#f9fafc',
+        graddark: '#001010',
+        gradlight: '#878888',
       },
     },
     extend: {
       spacing: {
         buttonwidth: "190px",
         buttonheight: "50px",
+        navbary: "22px",
+        navbarx: "80px",
+        headcontentmargin: "40px",
+        headcontentleftmargin: "29px",
+        iconcontentrightmargin: "25px",
+        lasticoncontentrightmargin: "40px",
+        iconmarginleft: "120px",
       },
     },
+    minHeight: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+     }
   },
 };

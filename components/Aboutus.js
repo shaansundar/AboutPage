@@ -13,7 +13,7 @@ function AboutUs() {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="heading font-medium title-font text-gray-900 tracking-widest">
+          <h1 className="heading font-medium title-font text-gray-900">
             The Crazy Team
           </h1>
           <p className="txt">A bunch of CrazyGEEKS on a CrazyMISSION</p>
@@ -35,8 +35,6 @@ function AboutUs() {
         <MakeTeamMember {... members[13]} />
         <MakeTeamMember {... members[14]} />
         <MakeTeamMember {... members[15]} />
-        <MakeTeamMember {... members[16]} />
-        <MakeTeamMember {... members[17]} />
         </div>
         {/* <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2">

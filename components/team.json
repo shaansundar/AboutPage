@@ -11,22 +11,21 @@
         "name": "Amoolya Garg",
         "post": "Graphic Designer",
         "image": "/amoolya.jpeg",
-        "quote":"Adding css to the life :)",
+        "quote":"Trying to get the outcome with one less click",
         "linkedin":"https://www.linkedin.com/in/amoolya-garg",
         "github":"https://github.com/amoolya-garg"
     },
     {
         "name": "Avinash Soni",
-        "post": "Software Developement Engineer",
+        "post": "Software Developer",
         "image": "/avinash.jpg",
         "quote":"Developing UI that gives Happiness to Soul",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "linkedin":"https://www.linkedin.com/in/asoni93",
+        "github":"https://github.com/avinashsoni9829"
     },
     {
-        "name": "S Deeksha",
-        "post": "Lead Software Developer",
+        "name": "Deeksha S",
+        "post": "Software Developer",
         "image": "/deeksha.jpeg",
         "quote":"REACTing my way through",
         "linkedin":"https://www.linkedin.com/in/deeksha-s-881826140",
@@ -54,14 +53,14 @@
         "name": "Khushi",
         "post": "Graphic Designer",
         "image": "",
-        "quote":"Adding css to the life :)",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "quote":"_____",
+        "linkedin":"",
+        "insta":"",
+        "github":""
     },
     {
         "name": "Mainak Sengupta",
-        "post": "Lead Software Developer",
+        "post": "Software Developer",
         "image": "/mainak.jpeg",
         "quote":"Working on crazy ideas when no one else wants to....",
         "linkedin":"https://www.linkedin.com/in/mainak-sengupta-13775b18b/",
@@ -69,7 +68,7 @@
     },
     {
         "name": "Mayank Sharma",
-        "post": "Lead Software Developer",
+        "post": "Software Developer",
         "image": "/mayanksh.jpg",
         "quote":"A passionate learner with a deep love for tech, innovation and design",
         "linkedin":"http://www.linkedin.com/in/mayanksh07",
@@ -78,37 +77,65 @@
     {
         "name": "Mohsin MD",
         "post": "Lead Blockchain Engineer",
-        "image": "/karan.jpeg",
-        "quote":"Adding css to the life :)",
+        "image": "/mohsin.jpeg",
+        "quote":"_____",
         "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
         "insta":"https://www.instagram.com/karan.y.singh/",
         "github":"https://github.com/karanysingh"
     },
-    {
-        "name": "Karan Yuvraj Singh",
+	{
+        "name": "Munishka Vijayvergiya",
+        "post": "Lead of Marketing",
+        "image": "/munishka.jpeg",
+        "quote":"_____",
+        "linkedin":"",
+        "insta":"",
+        "github":""
+    },
+	{
+        "name": "Saksham Thole",
+        "post": "Lead Graphic and UI/UX Designer",
+        "image": "/saksham.jpeg",
+        "quote":"_____",
+        "linkedin":"",
+        "insta":"",
+        "github":""
+    },
+	{
+        "name": "Shaan Sundar",
+        "post": "Founder, Lead Executor",
+        "image": "/shaan.jpeg",
+        "quote":"I put these crazy peeps together, and made them write the quotes which you're avidly reading",
+        "linkedin":"https://www.linkedin.com/in/notthatsundar/",
+        "insta":"",
+        "github":"https://github.com/shaansundar"
+    },
+	{
+        "name": "Sharvari Totala",
+        "post": "UI/UX Designer",
+        "image": "/sharvari.jpeg",
+        "quote":"Aiming to create innovative and user friendly solutions for the small and big problems of mankind by digital means.",
+        "linkedin":"http://linkedin.com/in/sharvari-totala-82a4871a7",
+        "insta":"",
+        "github":""
+    },
+	{
+        "name": "Shivansh",
         "post": "Lead Software Developer",
-        "image": "/karan.jpeg",
-        "quote":"Adding css to the life :)",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "image": "/shivansh.jpeg",
+        "quote":"A lifelong learner, passionate about developing applications to create a positive impact on human lives.",
+        "linkedin":"https://www.linkedin.com/in/shivansh-goel-260019a7/",
+        "insta":"",
+        "github":"https://github.com/ishivanshgoel"
     },
     {
-        "name": "Karan Yuvraj Singh",
-        "post": "Lead Software Developer",
-        "image": "/karan.jpeg",
-        "quote":"Adding css to the life :)",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
-    },
-    {
-        "name": "Karan Yuvraj Singh",
-        "post": "Lead Software Developer",
-        "image": "/karan.jpeg",
-        "quote":"Adding css to the life :)",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "name": "Shreyas",
+        "post": "Blockchain Integration Engineer",
+        "image": "",
+        "quote":"",
+        "linkedin":"",
+        "insta":"",
+        "github":""
     }
+    
 ]

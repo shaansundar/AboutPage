@@ -1,19 +1,51 @@
 import Link from "next/link";
 import Image from "next/image";
+import {
+  faLinkedinIn,
+  faTwitter,
+  faTelegram,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+function Icon({ icon, href }) {
+  return (
+    <Link href={href}>
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-iconcontentrightmargin">
+        <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
+      </div>
+    </Link>
+  );
+}
+
+function Discord() {
+  return (
+    <Link href="#">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-lasticoncontentrightmargin">
+      <img src="/icons-03.png" alt="An SVG of an eye" width="35px" height="35px" />
+      </div>
+    </Link>
+  );
+}
 
 const Navbar = () =>{
     return (
      <div className="head">
    <header class="text-gray-600 bg-gray-headerbg body-font ">
-    <div class="container flex flex-wrap flex-col pr-5 md:flex-row items-center max-w-full">
+    <div class="container flex flex-wrap flex-col px-navbarx py-navbary md:flex-row items-center max-w-full">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-    <Image  src="/logo.png" width={214.408} height={100} />
+    <Image  src="/logo.png" width={113.33} height={68.66} />
      </a>
-    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 flex flex-wrap items-center text-base justify-center">
-    <Link href="/"><a class="mr-5 hover:text-gray-900"><span className="txt">CrazyHOME</span></a></Link>
-    <Link href="/about"><a class="mr-5 hover:text-gray-900"><span className="txt">CrazyTEAM</span></a></Link>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-headcontentleftmargin flex flex-wrap items-center text-base justify-center">
+    <Link href="/"><a class="mr-headcontentmargin hover:text-gray-900"><span className="txt">CrazyHOME</span></a></Link>
+    <Link href="/about"><a class="mr-headcontentmargin hover:text-gray-900"><span className="txt">CrazyTEAM</span></a></Link>
     <Link href="/blog"><a class="mr-5 hover:text-gray-900"><span className="txt">CrazyBLOG</span></a></Link>  
    </nav>
+   <div className="flex items-center">
+              <Icon icon={faLinkedinIn} href="#" />
+              <Icon icon={faTwitter} href="#" />
+              <Icon icon={faTelegram} href="#" />
+              <Discord />
+            </div>
     <button class=" 
                     inline-flex 
                     items-center 
@@ -21,8 +53,8 @@ const Navbar = () =>{
                     bg-gradient-to-r 
                       from-green-light 
                       to-green-dark 
-                      hover:from-gray-dark 
-                      hover:to-gray-darkest
+                      hover:from-gray-gradlight 
+                      hover:to-gray-graddark
                     border-0 
                     w-buttonwidth 
                     h-buttonheight 
@@ -30,8 +62,8 @@ const Navbar = () =>{
                     focus:outline-none 
                     rounded 
                     mt-4 md:mt-0"
-          >
-            <span className="txtw">Launch CrazyApp</span>
+                    >
+            <span className="txtw">Launch App</span>
           </button>
         </div>
       </header>

@@ -25,7 +25,7 @@ a {
   color: white;
   text-align: center;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   display: table;
   margin-left: auto;
   margin-right: auto;
@@ -52,12 +52,45 @@ a {
   margin-right: auto;
 }
 
+.footertxt {
+  font-family: "Comfortaa", cursive;
+  color: #015050;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footertxt:hover {
+  font-family: "Comfortaa", cursive;
+  color: darkslategray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerconnect {
+  font-family: "Comfortaa", cursive;
+  color: #878888;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  display: table;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
 .heading {
   text-align: center;
   font-family: "Comfortaa", cursive;
-  font-size: 90px;
+  font-size: 110px;
   letter-spacing: 3px;
-  color: #006260;
+  color: #015050;
 }
 .para {
   font-size: 25px;
@@ -69,7 +102,50 @@ a {
   font-size: 35px;
   font-weight: 600;
 
+  color: #015050;
+}
+
+.headingname {
+  font-family: "Comfortaa", cursive;
+  font-size: 30px;
+  font-weight: 600;
+
   color: #006260;
+}
+
+.postname {
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+  font-weight: 300;
+  color: #006260;
+}
+
+.table {
+  align-items: center;
+}
+
+.quote {
+  font-family: "Comfortaa", cursive;
+  font-size: 15px;
+  font-weight: 100;
+  color: #000000;
+}
+
+.cardstyle {
+  position: relative;
+}
+
+.iconplacement {
+  position: relative;
+  align-items: center;
+  bottom: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardbg{
+  background-color: #45ddff;
 }
 
 .font-comfortaa {
