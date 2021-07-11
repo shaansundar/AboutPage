@@ -35,8 +35,18 @@ const FooterLinkCol = ({ header, linkSet }) => (
 function Discord() {
   return (
     <Link href="#">
-      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark">
-      <img src="/icons-03.png" alt="An SVG of an eye" width="35px" height="35px" />
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-lasticoncontentrightmargin">
+      <img src="/discord.png" alt="An SVG of an eye" width="25px" height="25px" />
+      </div>
+    </Link>
+  );
+}
+
+function Telegram() {
+  return (
+    <Link href="#">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-iconcontentrightmargin">
+      <img src="/telegram.png" alt="An SVG of an eye" width="20px" height="20px" />
       </div>
     </Link>
   );
@@ -60,7 +70,7 @@ export default function Footer() {
             <div className="flex items-right mt-2 ml-iconmarginleft">
               <Icon icon={faLinkedinIn} href="#" />
               <Icon icon={faTwitter} href="#" />
-              <Icon icon={faTelegram} href="#" />
+              <Telegram />
               <Discord />
             </div>
           </div>

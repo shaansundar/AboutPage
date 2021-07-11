@@ -139,9 +139,8 @@ a {
   position: relative;
   align-items: center;
   bottom: 0;
-
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .cardbg{

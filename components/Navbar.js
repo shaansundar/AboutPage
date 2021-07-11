@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Icon({ icon, href }) {
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-iconcontentrightmargin">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-iconcontentrightmargin">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -20,8 +20,18 @@ function Icon({ icon, href }) {
 function Discord() {
   return (
     <Link href="#">
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-lasticoncontentrightmargin">
-      <img src="/icons-03.png" alt="An SVG of an eye" width="35px" height="35px" />
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-lasticoncontentrightmargin">
+      <img src="/discord.png" alt="An SVG of an eye" width="25px" height="25px" />
+      </div>
+    </Link>
+  );
+}
+
+function Telegram() {
+  return (
+    <Link href="#">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-iconcontentrightmargin">
+      <img src="/telegram.png" alt="An SVG of an eye" width="20px" height="20px" />
       </div>
     </Link>
   );
@@ -43,7 +53,7 @@ const Navbar = () =>{
    <div className="flex items-center">
               <Icon icon={faLinkedinIn} href="#" />
               <Icon icon={faTwitter} href="#" />
-              <Icon icon={faTelegram} href="#" />
+              <Telegram />
               <Discord />
             </div>
     <button class=" 

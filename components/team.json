@@ -5,7 +5,9 @@
         "image": "/abishek.jpeg",
         "quote":"I believe in a world which is Decentralised,so let's decentralise everything!",
         "linkedin":"https://www.linkedin.com/in/abhisek-yadav-797669192",
-        "github":"https://github.com/Abhisek1999"
+        "github":"https://github.com/Abhisek1999",
+        "twitter":"",
+        "insta":""
     },
     {
         "name": "Amoolya Garg",
@@ -13,7 +15,9 @@
         "image": "/amoolya.jpeg",
         "quote":"Trying to get the outcome with one less click",
         "linkedin":"https://www.linkedin.com/in/amoolya-garg",
-        "github":"https://github.com/amoolya-garg"
+        "github":"https://github.com/amoolya-garg",
+        "insta":"",
+        "twitter":""
     },
     {
         "name": "Avinash Soni",
@@ -21,7 +25,9 @@
         "image": "/avinash.jpg",
         "quote":"Developing UI that gives Happiness to Soul",
         "linkedin":"https://www.linkedin.com/in/asoni93",
-        "github":"https://github.com/avinashsoni9829"
+        "github":"https://github.com/avinashsoni9829",
+        "insta":"",
+        "twitter":""
     },
     {
         "name": "Deeksha S",
@@ -29,7 +35,9 @@
         "image": "/deeksha.jpeg",
         "quote":"REACTing my way through",
         "linkedin":"https://www.linkedin.com/in/deeksha-s-881826140",
-        "github":"https://github.com/deekshas15"
+        "insta":"",
+        "github":"https://github.com/deekshas15",
+        "twitter":""
     },
     {
         "name": "Ishaan Srivastava",
@@ -38,7 +46,8 @@
         "quote":"Always aspire to be rich, because that's the only way you can truly make a difference",
         "linkedin":"https://www.linkedin.com/in/envishaansrivastava",
         "insta":"https://www.instagram.com/envishaan",
-        "github":"https://github.com/IshaanSrivastavaaa"
+        "github":"https://github.com/IshaanSrivastavaaa",
+        "twitter":""
     },
     {
         "name": "Karan Yuvraj Singh",
@@ -47,7 +56,8 @@
         "quote":"Adding css to the life :)",
         "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
         "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "github":"https://github.com/karanysingh",
+        "twitter":""
     },
     {
         "name": "Khushi",
@@ -56,7 +66,8 @@
         "quote":"_____",
         "linkedin":"",
         "insta":"",
-        "github":""
+        "github":"",
+        "twitter":""
     },
     {
         "name": "Mainak Sengupta",
@@ -64,7 +75,9 @@
         "image": "/mainak.jpeg",
         "quote":"Working on crazy ideas when no one else wants to....",
         "linkedin":"https://www.linkedin.com/in/mainak-sengupta-13775b18b/",
-        "github":"https://github.com/cool-pants/"
+        "github":"https://github.com/cool-pants/",
+        "insta":"",
+        "twitter":""
     },
     {
         "name": "Mayank Sharma",
@@ -72,7 +85,9 @@
         "image": "/mayanksh.jpg",
         "quote":"A passionate learner with a deep love for tech, innovation and design",
         "linkedin":"http://www.linkedin.com/in/mayanksh07",
-        "github":"https://github.com/Mayank-Sh07"
+        "github":"https://github.com/Mayank-Sh07",
+        "insta":"",
+        "twitter":""
     },
     {
         "name": "Mohsin MD",
@@ -81,25 +96,28 @@
         "quote":"_____",
         "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
         "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh"
+        "github":"https://github.com/karanysingh",
+        "twitter":""
     },
 	{
-        "name": "Munishka Vijayvergiya",
+        "name": "Munishka",
         "post": "Lead of Marketing",
         "image": "/munishka.jpeg",
         "quote":"_____",
         "linkedin":"",
         "insta":"",
-        "github":""
+        "github":"",
+        "twitter":""
     },
 	{
         "name": "Saksham Thole",
-        "post": "Lead Graphic and UI/UX Designer",
+        "post": "Lead Designer",
         "image": "/saksham.jpeg",
         "quote":"_____",
         "linkedin":"",
         "insta":"",
-        "github":""
+        "github":"",
+        "twitter":""
     },
 	{
         "name": "Shaan Sundar",
@@ -108,7 +126,8 @@
         "quote":"I put these crazy peeps together, and made them write the quotes which you're avidly reading",
         "linkedin":"https://www.linkedin.com/in/notthatsundar/",
         "insta":"",
-        "github":"https://github.com/shaansundar"
+        "github":"https://github.com/shaansundar",
+        "twitter":""
     },
 	{
         "name": "Sharvari Totala",
@@ -117,7 +136,8 @@
         "quote":"Aiming to create innovative and user friendly solutions for the small and big problems of mankind by digital means.",
         "linkedin":"http://linkedin.com/in/sharvari-totala-82a4871a7",
         "insta":"",
-        "github":""
+        "github":"",
+        "twitter":""
     },
 	{
         "name": "Shivansh",
@@ -126,7 +146,8 @@
         "quote":"A lifelong learner, passionate about developing applications to create a positive impact on human lives.",
         "linkedin":"https://www.linkedin.com/in/shivansh-goel-260019a7/",
         "insta":"",
-        "github":"https://github.com/ishivanshgoel"
+        "github":"https://github.com/ishivanshgoel",
+        "twitter":""
     },
     {
         "name": "Shreyas",
@@ -135,7 +156,8 @@
         "quote":"",
         "linkedin":"",
         "insta":"",
-        "github":""
+        "github":"",
+        "twitter":""
     }
     
 ]
