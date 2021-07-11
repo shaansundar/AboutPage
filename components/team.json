@@ -1,4 +1,64 @@
 [
+    {
+        "name": "Shaan Sundar",
+        "post": "Founder, Lead Executor",
+        "image": "/shaan.jpeg",
+        "quote":"I put these crazy peeps together, and made them write the quotes which you're avidly gonna read",
+        "linkedin":"https://www.linkedin.com/in/notthatsundar/",
+        "insta":"",
+        "github":"https://github.com/shaansundar",
+        "twitter":""
+    },
+    {
+        "name": "Karan Yuvraj Singh",
+        "post": "Lead Software Developer",
+        "image": "/karan.jpeg",
+        "quote":"Adding css to the life :)",
+        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
+        "insta":"https://www.instagram.com/karan.y.singh/",
+        "github":"https://github.com/karanysingh",
+        "twitter":""
+    },
+    {
+        "name": "Mohsin MD",
+        "post": "Lead Blockchain Engineer",
+        "image": "/mohsin.jpeg",
+        "quote":"_____",
+        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
+        "insta":"https://www.instagram.com/karan.y.singh/",
+        "github":"https://github.com/karanysingh",
+        "twitter":""
+    },
+    {
+        "name": "Munishka",
+        "post": "Lead of Marketing",
+        "image": "/munishka.jpeg",
+        "quote":"_____",
+        "linkedin":"",
+        "insta":"",
+        "github":"",
+        "twitter":""
+    },
+	{
+        "name": "Saksham Thole",
+        "post": "Lead Designer",
+        "image": "/saksham.jpeg",
+        "quote":"_____",
+        "linkedin":"",
+        "insta":"",
+        "github":"",
+        "twitter":""
+    },
+    {
+        "name": "Shivansh",
+        "post": "Lead Software Developer",
+        "image": "/shivansh.jpeg",
+        "quote":"A lifelong learner, passionate about developing applications to create a positive impact on human lives.",
+        "linkedin":"https://www.linkedin.com/in/shivansh-goel-260019a7/",
+        "insta":"",
+        "github":"https://github.com/ishivanshgoel",
+        "twitter":""
+    },
     {   
         "name": "Abishek",
         "post": "Blockchain Engineer",
@@ -10,15 +70,26 @@
         "insta":""
     },
     {
-        "name": "Amoolya Garg",
-        "post": "Graphic Designer",
-        "image": "/amoolya.jpeg",
-        "quote":"Trying to get the outcome with one less click",
-        "linkedin":"https://www.linkedin.com/in/amoolya-garg",
-        "github":"https://github.com/amoolya-garg",
-        "insta":"",
+        "name": "Ishaan Srivastava",
+        "post": "Blockchain Engineer",
+        "image": "/ishaan.jpeg",
+        "quote":"Always aspire to be rich, because that's the only way you can truly make a difference",
+        "linkedin":"https://www.linkedin.com/in/envishaansrivastava",
+        "insta":"https://www.instagram.com/envishaan",
+        "github":"https://github.com/IshaanSrivastavaaa",
         "twitter":""
     },
+    {
+        "name": "Shreyas",
+        "post": "Blockchain Integration Engineer",
+        "image": "/shreyas.jpeg",
+        "quote":"",
+        "linkedin":"",
+        "insta":"",
+        "github":"",
+        "twitter":""
+    },
+
     {
         "name": "Avinash Soni",
         "post": "Software Developer",
@@ -37,36 +108,6 @@
         "linkedin":"https://www.linkedin.com/in/deeksha-s-881826140",
         "insta":"",
         "github":"https://github.com/deekshas15",
-        "twitter":""
-    },
-    {
-        "name": "Ishaan Srivastava",
-        "post": "Blockchain Engineer",
-        "image": "/ishaan.jpeg",
-        "quote":"Always aspire to be rich, because that's the only way you can truly make a difference",
-        "linkedin":"https://www.linkedin.com/in/envishaansrivastava",
-        "insta":"https://www.instagram.com/envishaan",
-        "github":"https://github.com/IshaanSrivastavaaa",
-        "twitter":""
-    },
-    {
-        "name": "Karan Yuvraj Singh",
-        "post": "Lead Software Developer",
-        "image": "/karan.jpeg",
-        "quote":"Adding css to the life :)",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh",
-        "twitter":""
-    },
-    {
-        "name": "Khushi",
-        "post": "Graphic Designer",
-        "image": "",
-        "quote":"_____",
-        "linkedin":"",
-        "insta":"",
-        "github":"",
         "twitter":""
     },
     {
@@ -90,43 +131,23 @@
         "twitter":""
     },
     {
-        "name": "Mohsin MD",
-        "post": "Lead Blockchain Engineer",
-        "image": "/mohsin.jpeg",
-        "quote":"_____",
-        "linkedin":"https://www.linkedin.com/in/karan-yuvraj-singh-034155193/",
-        "insta":"https://www.instagram.com/karan.y.singh/",
-        "github":"https://github.com/karanysingh",
+        "name": "Amoolya Garg",
+        "post": "Graphic Designer",
+        "image": "/amoolya.jpeg",
+        "quote":"Trying to get the outcome with one less click",
+        "linkedin":"https://www.linkedin.com/in/amoolya-garg",
+        "github":"https://github.com/amoolya-garg",
+        "insta":"",
         "twitter":""
     },
-	{
-        "name": "Munishka",
-        "post": "Lead of Marketing",
-        "image": "/munishka.jpeg",
-        "quote":"_____",
-        "linkedin":"",
-        "insta":"",
+    {
+        "name": "Khushi Badjate",
+        "post": "Graphic Designer",
+        "image": "/kushi.jpg",
+        "quote":"An evolving, serene, boundless seeker.",
+        "linkedin":"https://www.linkedin.com/in/khushi-badjate-63115015a",
+        "insta":"https://www.instagram.com/white_untilpainted",
         "github":"",
-        "twitter":""
-    },
-	{
-        "name": "Saksham Thole",
-        "post": "Lead Designer",
-        "image": "/saksham.jpeg",
-        "quote":"_____",
-        "linkedin":"",
-        "insta":"",
-        "github":"",
-        "twitter":""
-    },
-	{
-        "name": "Shaan Sundar",
-        "post": "Founder, Lead Executor",
-        "image": "/shaan.jpeg",
-        "quote":"I put these crazy peeps together, and made them write the quotes which you're avidly reading",
-        "linkedin":"https://www.linkedin.com/in/notthatsundar/",
-        "insta":"",
-        "github":"https://github.com/shaansundar",
         "twitter":""
     },
 	{
@@ -138,26 +159,5 @@
         "insta":"",
         "github":"",
         "twitter":""
-    },
-	{
-        "name": "Shivansh",
-        "post": "Lead Software Developer",
-        "image": "/shivansh.jpeg",
-        "quote":"A lifelong learner, passionate about developing applications to create a positive impact on human lives.",
-        "linkedin":"https://www.linkedin.com/in/shivansh-goel-260019a7/",
-        "insta":"",
-        "github":"https://github.com/ishivanshgoel",
-        "twitter":""
-    },
-    {
-        "name": "Shreyas",
-        "post": "Blockchain Integration Engineer",
-        "image": "",
-        "quote":"",
-        "linkedin":"",
-        "insta":"",
-        "github":"",
-        "twitter":""
-    }
-    
+    }   
 ]
