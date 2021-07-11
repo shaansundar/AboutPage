@@ -11,6 +11,7 @@ module.exports = {
 
       },
       gray: {
+        headerbg: '#eff4f7',
         darkest: '#000000',
         dark: '#2c4858',
         DEFAULT: '#c0ccda',
