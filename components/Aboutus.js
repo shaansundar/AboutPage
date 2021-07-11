@@ -18,13 +18,25 @@ function AboutUs() {
           </h1>
           <p className="txt">A bunch of CrazyGEEKS on a CrazyMISSION</p>
         </div>
-        <div className="flex flex-wrap -m-4">
-          <MakeTeamMember {...members[0]} />
-          <MakeTeamMember {...members[1]} />
-          <MakeTeamMember {...members[2]} />
-          <MakeTeamMember {...members[3]} />
-          <MakeTeamMember {...members[4]} />
-          <MakeTeamMember {...members[5]} />
+        <div className="flex flex-wrap">
+        <MakeTeamMember {... members[0]} />
+        <MakeTeamMember {... members[1]} />
+        <MakeTeamMember {... members[2]} />
+        <MakeTeamMember {... members[3]} />
+        <MakeTeamMember {... members[4]} />
+        <MakeTeamMember {... members[5]} />
+        <MakeTeamMember {... members[6]} />
+        <MakeTeamMember {... members[7]} />
+        <MakeTeamMember {... members[8]} />
+        <MakeTeamMember {... members[9]} />
+        <MakeTeamMember {... members[10]} />
+        <MakeTeamMember {... members[11]} />
+        <MakeTeamMember {... members[12]} />
+        <MakeTeamMember {... members[13]} />
+        <MakeTeamMember {... members[14]} />
+        <MakeTeamMember {... members[15]} />
+        <MakeTeamMember {... members[16]} />
+        <MakeTeamMember {... members[17]} />
         </div>
         {/* <div className="flex flex-wrap -m-4">
           <div className="p-4 lg:w-1/2">

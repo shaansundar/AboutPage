@@ -17,11 +17,12 @@ module.exports = {
         dark: "#015050",
       },
       gray: {
-        darkest: "#000000",
-        dark: "#2c4858",
-        DEFAULT: "#c0ccda",
-        light: "#e0e6ed",
-        lightest: "#f9fafc",
+        headerbg: '#eff4f7',
+        darkest: '#000000',
+        dark: '#2c4858',
+        DEFAULT: '#c0ccda',
+        light: '#e0e6ed',
+        lightest: '#f9fafc',
       },
     },
     extend: {
