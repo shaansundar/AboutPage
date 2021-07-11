@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-
 const Navbar = () =>{
     return (
      <div className="head">
@@ -30,16 +29,14 @@ const Navbar = () =>{
                     py-1 px-3 
                     focus:outline-none 
                     rounded 
-                    mt-4 md:mt-0">
-                      <span className="txtw"> 
-                        Launch CrazyApp 
-                      </span> 
-    </button>
-  </div>
-  </header>
-  </div>    
-        
-    )
-}
+                    mt-4 md:mt-0"
+          >
+            <span className="txtw">Launch CrazyApp</span>
+          </button>
+        </div>
+      </header>
+    </div>
+  );
+};
 
 export default Navbar;

@@ -1,6 +1,5 @@
-import React from 'react';
-const MakeTeamMember = (members) => {
-    
+import React from "react";
+const MakeTeamMember = (members) => {  
     return(
         
           <div className="p-8 lg:w-1/3 ">
