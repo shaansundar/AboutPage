@@ -42,7 +42,7 @@ const MakeTeamMember = (members) => {
           <div class="h-36 w-80 p-4">
           <p class="mb-4 quote">{members.quote}</p>
           </div>
-          <span class="flex iconplacement">
+          <span class="items-center flex iconplacement">
               <Icon icon={faLinkedinIn} href="#" trueval={linkedinval} />
               <Icon icon={faGithub} href="#" trueval={githubval}/>              
               <Icon icon={faInstagram} href="#" trueval={instagramval}/>              

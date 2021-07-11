@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Icon({ icon, href }) {
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark mr-5">
+      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-5">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -19,13 +19,13 @@ function Icon({ icon, href }) {
 
 const FooterLinkCol = ({ header, linkSet }) => (
   <div className=" w-60">
-    <h4 className="font-comfortaa text-2xl text-gray-gradlight my-5  font-semibold">
+    <h4 className="font-comfortaa text-2xl text-green-dark my-5  font-semibold">
       {header}
     </h4>
     <ul>
       {linkSet.map((link) => (
         <Link href={link.href} key={`link-to-${link.href}`}>
-          <li className="font-comfortaa text-green-dark text-lg my-2">{link.label}</li>
+          <li className="footercontenttxt text-gray-gradlight text-lg my-4">{link.label}</li>
         </Link>
       ))}
     </ul>
