@@ -100,14 +100,31 @@ a {
 }
 
 .heading {
-  text-align: center;
+  text-align: left;
   font-family: "Comfortaa", cursive;
-  font-size: 110px;
-  letter-spacing: 3px;
+  font-size: 40px;
   color: #015050;
 }
+
+.aboutusheading {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 100px;
+  color: #015050;
+}
+
+.featureheading {
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 60px;
+  font-weight: bold;
+  color: #015050;
+}
+
+
 .para {
-  font-size: 25px;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
   color: #000000;
 }
 

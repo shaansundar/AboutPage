@@ -13,7 +13,7 @@ function AboutUs() {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h1 className="heading font-medium title-font text-gray-900">
+          <h1 className="aboutusheading font-medium title-font text-gray-900">
             The Crazy Team
           </h1>
           <p className="txt">A bunch of CrazyGEEKS on a CrazyMISSION</p>
