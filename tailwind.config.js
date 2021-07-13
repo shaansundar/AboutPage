@@ -30,6 +30,7 @@ module.exports = {
     extend: {
       spacing: {
         buttonwidth: "190px",
+        secondarybuttonwidth: "220px",
         buttonheight: "50px",
         navbary: "22px",
         navbarx: "80px",

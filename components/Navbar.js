@@ -3,7 +3,7 @@ import Image from "next/image";
 import {
   faLinkedinIn,
   faTwitter,
-  faTelegram,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -19,7 +19,7 @@ function Icon({ icon, href }) {
 
 function Discord() {
   return (
-    <Link href="#">
+    <Link href="https://discord.gg/jBr3GmsYcu">
       <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-lasticoncontentrightmargin">
       <img src="/discord.png" alt="An SVG of an eye" width="25px" height="25px" />
       </div>
@@ -51,11 +51,12 @@ const Navbar = () =>{
     <Link href="/blog"><a class="mr-5 hover:text-gray-900"><span className="txt">CrazyBLOG</span></a></Link>  
    </nav>
    <div className="flex items-center">
-              <Icon icon={faLinkedinIn} href="#" />
-              <Icon icon={faTwitter} href="#" />
-              <Telegram />
+              <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
+              <Icon icon={faTwitter} href="https://twitter.com/team_crazynft" />
+              <Icon icon={faGithub} href="https://github.com/CrazyNFT" />
               <Discord />
             </div>
+    <Link href="https://prototype.crazynft.tech" passHref>
     <button class=" 
                     inline-flex 
                     items-center 
@@ -75,6 +76,7 @@ const Navbar = () =>{
                     >
             <span className="txtw">Launch App</span>
           </button>
+          </Link>
         </div>
       </header>
     </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import {
   faLinkedinIn,
   faTwitter,
-  faTelegram,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -34,7 +34,7 @@ const FooterLinkCol = ({ header, linkSet }) => (
 
 function Discord() {
   return (
-    <Link href="#">
+    <Link href="https://discord.gg/jBr3GmsYcu">
       <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-lasticoncontentrightmargin">
       <img src="/discord.png" alt="An SVG of an eye" width="25px" height="25px" />
       </div>
@@ -68,9 +68,9 @@ export default function Footer() {
               </span>
             </h4>
             <div className="flex items-right mt-2 ml-iconmarginleft">
-              <Icon icon={faLinkedinIn} href="#" />
-              <Icon icon={faTwitter} href="#" />
-              <Telegram />
+              <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
+              <Icon icon={faTwitter} href="https://twitter.com/team_crazynft" /> 
+              <Icon icon={faGithub} href="https://github.com/CrazyNFT" />
               <Discord />
             </div>
           </div>
@@ -91,21 +91,20 @@ const footerLinks = [
     header: "CrazyNFT",
     linkSet: [
       { label: "NFT Blog", href: "#" },
-      { label: "FAQ", href: "#" },
-      { label: "Chat with us", href: "#" },
-      { label: "Create NFT", href: "#" },
+      { label: "Contact us", href: "#" },
+      { label: "Prototype", href: "#" },
     ],
   },
-  {
-    header: "NFTS",
-    linkSet: [
-      { label: "Art NFT", href: "#" },
-      { label: "Game NFT", href: "#" },
-      { label: "Photography NFT", href: "#" },
-      { label: "Video NFT", href: "#" },
-      { label: "Music NFT", href: "#" },
-    ],
-  },
+  // {
+  //   header: "NFTS",
+  //   linkSet: [
+  //     { label: "Art NFT", href: "#" },
+  //     { label: "Game NFT", href: "#" },
+  //     { label: "Photography NFT", href: "#" },
+  //     { label: "Video NFT", href: "#" },
+  //     { label: "Music NFT", href: "#" },
+  //   ],
+  // },
   {
     header: "Information",
     linkSet: [

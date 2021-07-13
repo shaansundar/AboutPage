@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import PropTypes from  "prop-types";
 
 function Hero(props) {
@@ -17,6 +18,7 @@ function Hero(props) {
             We are working on creating a free, fair, easy and a less intimidating NFT Marketplace, so that the layman may open thyself up to new ventures
           </p>
           <div className="flex justify-center">
+          <Link href="https://prototype.crazynft.tech" passHref>
           <button class=" 
                     inline-flex 
                     items-center 
@@ -35,6 +37,25 @@ function Hero(props) {
                     mt-4 md:mt-0"
                     >
             <span className="txtw">Launch App</span>
+          </button>
+          </Link>
+          <button class=" 
+                    inline-flex 
+                    items-center  
+                    bg-transparent
+                    border-2 
+                    border-green-dark
+                    hover:border-gray-gradlight
+                    text-green-dark
+                    hover:text-gray-gradlight
+                    w-secondarybuttonwidth 
+                    h-buttonheight 
+                    py-1 px-3 
+                    focus:outline-none 
+                    rounded 
+                    mt-4 ml-4 md:mt-0"
+                    >
+            <span className="secondarybuttontxt">Read Whitepaper</span>
           </button>
           </div>
         </div>
