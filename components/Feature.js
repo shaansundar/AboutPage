@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function LightFeatureB(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font bg-gray-headerbg ">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="featureheading mb-4">

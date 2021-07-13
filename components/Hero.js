@@ -3,7 +3,7 @@ import PropTypes from  "prop-types";
 
 function Hero(props) {
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font ">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
@@ -17,6 +17,25 @@ function Hero(props) {
             We are working on creating a free, fair, easy and a less intimidating NFT Marketplace, so that the layman may open thyself up to new ventures
           </p>
           <div className="flex justify-center">
+          <button class=" 
+                    inline-flex 
+                    items-center 
+                    text-white 
+                    bg-gradient-to-r 
+                      from-green-light 
+                      to-green-dark 
+                      hover:from-gray-gradlight 
+                      hover:to-gray-graddark
+                    border-0 
+                    w-buttonwidth 
+                    h-buttonheight 
+                    py-1 px-3 
+                    focus:outline-none 
+                    rounded 
+                    mt-4 md:mt-0"
+                    >
+            <span className="txtw">Launch App</span>
+          </button>
           </div>
         </div>
       </div>

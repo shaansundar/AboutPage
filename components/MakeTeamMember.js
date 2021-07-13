@@ -13,7 +13,7 @@ function Icon({ icon, href, trueval }) {
   if (trueval==1){
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-5">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark m-2">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -42,11 +42,14 @@ const MakeTeamMember = (members) => {
           <div class="h-36 w-80 p-4">
           <p class="mb-4 quote">{members.quote}</p>
           </div>
-          <span class="items-center flex iconplacement">
+          
+          <span class="items-center object-center text-center flex iconplacement">
+          <div class="object-center content-center flex item-center">
               <Icon icon={faLinkedinIn} href="#" trueval={linkedinval} />
               <Icon icon={faGithub} href="#" trueval={githubval}/>              
               <Icon icon={faInstagram} href="#" trueval={instagramval}/>              
               <Icon icon={faTwitter} href="#" trueval={twitterval}/>
+              </div>
             </span>
         </div>
       </div>
