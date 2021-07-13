@@ -9,7 +9,7 @@ export default function Banner() {
           platform, participate in network governance and earn additional
           rewards by using the platform.
         </p>
-        <button className="px-6 py-3 mt-4 mb-2 bg-green-dark rounded-sm m-auto">
+        <button className="px-6 py-3 mt-4 mb-2 bg-green-dark hover:bg-gray-darkest rounded-sm m-auto">
           <span className="text-xl text-gray-light">Earn CRZY</span>
         </button>
       </div>

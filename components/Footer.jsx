@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Icon({ icon, href }) {
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-5">
+      <div className="flex items-center justify-center h-11 w-11 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark transform hover:scale-105 duration-300 ease-in-out mr-5">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -25,7 +25,7 @@ const FooterLinkCol = ({ header, linkSet }) => (
     <ul>
       {linkSet.map((link) => (
         <Link href={link.href} key={`link-to-${link.href}`}>
-          <li className="footercontenttxt text-gray-gradlight text-lg my-4">{link.label}</li>
+          <li className="footercontenttxt transform hover:scale-105 duration-300 ease-in-out text-gray-gradlight text-lg my-4">{link.label}</li>
         </Link>
       ))}
     </ul>
@@ -35,7 +35,7 @@ const FooterLinkCol = ({ header, linkSet }) => (
 function Discord() {
   return (
     <Link href="https://discord.gg/jBr3GmsYcu">
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-lasticoncontentrightmargin">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark transform hover:scale-105 duration-300 ease-in-out mr-lasticoncontentrightmargin">
       <img src="/discord.png" alt="An SVG of an eye" width="25px" height="25px" />
       </div>
     </Link>
@@ -45,7 +45,7 @@ function Discord() {
 function Telegram() {
   return (
     <Link href="#">
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark mr-iconcontentrightmargin">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark transform hover:scale-105 duration-300 ease-in-out mr-iconcontentrightmargin">
       <img src="/telegram.png" alt="An SVG of an eye" width="20px" height="20px" />
       </div>
     </Link>
@@ -88,11 +88,27 @@ export default function Footer() {
 
 const footerLinks = [
   {
-    header: "CrazyNFT",
+    header: "For Investors",
+    linkSet: [
+      { label: "Invest on us", href: "mailto:investment@crazynft.tech?subject=click Investement" },
+      { label: "Contact Finance", href: "mailto:investment@crazynft.tech?subject=click Contact Finance" },
+      { label: "Initial Offerings", href: "mailto:investment@crazynft.tech?subject=click Initial Offerings" },
+    ],
+  },
+  {
+    header: "For Geeks",
+    linkSet: [
+      { label: "Whitepaper", href: "#" },
+      { label: "Contact Geek Center", href: "mailto:tech@crazynft.tech?subject=click Geek Center" },
+      { label: "Prototype", href: "https://prototype.crazynft.tech" },
+    ],
+  },
+  {
+    header: "For Laymen",
     linkSet: [
       { label: "NFT Blog", href: "#" },
-      { label: "Contact us", href: "#" },
-      { label: "Prototype", href: "#" },
+      { label: "Contact us", href: "mailto:hello@crazynft.tech?subject=click Contact Us" },
+      { label: "Help", href: "mailto:info@crazynft.tech?subject=click Help" },
     ],
   },
   // {
@@ -105,11 +121,11 @@ const footerLinks = [
   //     { label: "Music NFT", href: "#" },
   //   ],
   // },
-  {
-    header: "Information",
-    linkSet: [
-      { label: "Terms of Service", href: "#" },
-      { label: "Privacy Policy", href: "#" },
-    ],
-  },
+  // {
+  //   header: "Information",
+  //   linkSet: [
+  //     { label: "Terms of Service", href: "#" },
+  //     { label: "Privacy Policy", href: "#" },
+  //   ],
+  // },
 ];

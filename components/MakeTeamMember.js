@@ -13,7 +13,7 @@ function Icon({ icon, href, trueval }) {
   if (trueval==1){
   return (
     <Link href={href}>
-      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark m-2">
+      <div className="flex items-center justify-center h-10 w-10 rounded-full bg-gradient-to-r from-green-light to-green-dark hover:from-gray-gradlight hover:to-gray-graddark transform hover:scale-105 duration-300 ease-in-out m-2">
         <FontAwesomeIcon icon={icon} size="lg" color="#e4f1f1" />
       </div>
     </Link>
@@ -33,13 +33,13 @@ const MakeTeamMember = (members) => {
 {members.insta.length!=0 ? instagramval=1 : instagramval=0}
 {members.twitter.length!=0 ? twitterval=1 : twitterval=0}
     return(
-      <div class="p-4 my-5 lg:w-1/4 md:w-1/2 min-h-full">
+      <div class="p-4 my-5 lg:w-1/4 md:w-1/2 min-h-full transform hover:scale-105 duration-300 ease-in-out">
       <div class="h-full flex flex-col items-center text-center">
-        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center p-4 mb-4" src={members.image} />
+        <img alt="team" class="flex-shrink-0 rounded-lg w-full h-auto object-cover object-center p-4 mb-4 " src={members.image} />
         <div class="w-full h-full">
           <h2 class="headingname mb-2">{members.name}</h2>
           <h3 class="mb-4 postname">{members.post}</h3>
-          <div class="h-36 w-80 p-4">
+          <div class="h-36 w-80 justify-center mx-3 p-4">
           <p class="mb-4 quote">{members.quote}</p>
           </div>
           
