@@ -15,6 +15,8 @@ module.exports = {
       green: {
         light: "#00C0B6",
         dark: "#015050",
+        general: "#288782",
+        hero: "#062828",
       },
       gray: {
         headerbg: '#eff4f7',
@@ -31,6 +33,8 @@ module.exports = {
       spacing: {
         buttonwidth: "190px",
         secondarybuttonwidth: "220px",
+        heroimgwidth:"512px",
+        heroimgheight:"351.672px",
         buttonheight: "50px",
         navbary: "22px",
         navbarx: "80px",

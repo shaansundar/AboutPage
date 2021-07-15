@@ -62,10 +62,10 @@ const Navbar = () =>{
                     items-center 
                     text-white 
                     bg-gradient-to-r 
-                      from-green-light 
-                      to-green-dark 
-                      hover:from-gray-gradlight 
-                      hover:to-gray-graddark
+                      from-green-dark 
+                      to-green-light 
+                      hover:from-gray-graddark 
+                      hover:to-gray-gradlight
                     border-0 
                     w-buttonwidth 
                     h-buttonheight 

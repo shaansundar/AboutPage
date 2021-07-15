@@ -1,5 +1,22 @@
 import React from "react";
+import Link from "next/link";
 import PropTypes from  "prop-types";
+import {
+  faTractor,
+  faGift,
+  faRocket,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { helli } from "react-icons/fa";
+
+
+function Icon({icon}) {
+  return (
+      <div className="flex items-center justify-center h-300 w-300 rounded-full transform hover:scale-105 duration-300 mb-10 ease-in-out mr-iconcontentrightmargin">
+        <FontAwesomeIcon icon={icon} size="10x" color="#288782" />
+      </div>
+  );
+}
 
 function LightFeatureB(props) {
   return (
@@ -16,10 +33,10 @@ function LightFeatureB(props) {
             <div className={`w-16 h-1 rounded-full bg-${props.theme}-500 inline-flex`}></div>
           </div>
         </div>
-        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-            <div className={`w-auto h-auto transform hover:scale-105 duration-300 ease-in-out inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/300x300" />
+        <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 ">
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+            <div className={`w-auto h-auto  inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
+            <Icon icon={faGift}/>
             </div>
             <div className="flex-grow">
               <h2 className="headingname mb-3">
@@ -30,9 +47,9 @@ function LightFeatureB(props) {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-          <div className={`w-auto h-auto transform hover:scale-105 duration-300 ease-in-out inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/300x300" />
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+          <div className={`w-auto h-auto inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
+          <Icon icon={faTractor} />
             </div>
             <div className="flex-grow">
               <h2 className="headingname mb-3">
@@ -43,9 +60,9 @@ function LightFeatureB(props) {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-          <div className={`w-auto h-auto transform hover:scale-105 duration-300 ease-in-out inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
-            <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/300x300" />
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+          <div className={`w-auto h-auto ease-in-out inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
+          <Icon icon={faRocket} />
             </div>
             <div className="flex-grow">
               <h2 className="headingname mb-3">

@@ -116,11 +116,19 @@ a {
   color: #015050;
 }
 
+.heroheading {
+  text-align: left;
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+  font-size: 40px;
+  /* color: white; */
+}
+
 .aboutusheading {
   text-align: center;
   font-family: "Comfortaa", cursive;
   font-size: 100px;
-  color: #015050;
+  color: #288782;
 }
 
 .featureheading {
@@ -128,14 +136,14 @@ a {
   font-family: "Comfortaa", cursive;
   font-size: 60px;
   font-weight: bold;
-  color: #015050;
+  color: #288782;
 }
 
 
 .para {
   font-family: "Comfortaa", cursive;
   font-size: 20px;
-  color: #000000;
+  /* color: #000000; */
 }
 
 .heading1 {
@@ -143,7 +151,7 @@ a {
   font-size: 35px;
   font-weight: 600;
 
-  color: #015050;
+  color: #288782;
 }
 
 .headingname {
