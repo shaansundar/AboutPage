@@ -45,10 +45,10 @@ const MakeTeamMember = (members) => {
           
           <span class="items-center object-center text-center flex iconplacement">
           <div class="object-center content-center flex item-center">
-              <Icon icon={faLinkedinIn} href="#" trueval={linkedinval} />
-              <Icon icon={faGithub} href="#" trueval={githubval}/>              
-              <Icon icon={faInstagram} href="#" trueval={instagramval}/>              
-              <Icon icon={faTwitter} href="#" trueval={twitterval}/>
+              <Icon icon={faLinkedinIn} href={members.linkedin} trueval={linkedinval} />
+              <Icon icon={faGithub} href={members.github} trueval={githubval}/>              
+              <Icon icon={faInstagram} href={members.insta} trueval={instagramval}/>              
+              <Icon icon={faTwitter} href={members.twitter} trueval={twitterval}/>
               </div>
             </span>
         </div>

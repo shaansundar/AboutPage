@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Icon({icon}) {
   return (
       <div className="flex items-center justify-center h-300 w-300 rounded-full transform hover:scale-105 duration-300 mb-10 ease-in-out mr-iconcontentrightmargin">
-        <FontAwesomeIcon icon={icon} size="8x" color="#288782" />
+        <FontAwesomeIcon icon={icon} size="9x" color="#288782" />
       </div>
   );
 }
