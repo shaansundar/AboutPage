@@ -106,7 +106,7 @@ const footerLinks = [
   {
     header: "For Laymen",
     linkSet: [
-      { label: "NFT Blog", href: "#" },
+      { label: "NFT Blog", href: "https://medium.com/@crazynft" },
       { label: "Contact us", href: "mailto:hello@crazynft.tech?subject=click Contact Us" },
       { label: "Help", href: "mailto:info@crazynft.tech?subject=click Help" },
     ],

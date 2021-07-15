@@ -48,7 +48,7 @@ const Navbar = () =>{
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-headcontentleftmargin flex flex-wrap items-center text-base justify-center">
     <Link href="/"><a class="mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyHOME</span></a></Link>
     <Link href="/about"><a class="mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyTEAM</span></a></Link>
-    <Link href="/blog"><a class="mr-5 hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyBLOG</span></a></Link>  
+    <Link href="https://medium.com/@crazynft"><a class="mr-5 hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyBLOG</span></a></Link>  
    </nav>
    <div className="flex items-center">
               <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
