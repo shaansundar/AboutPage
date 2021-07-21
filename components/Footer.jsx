@@ -18,11 +18,15 @@ function Icon({ icon, href }) {
 }
 
 const FooterLinkCol = ({ header, linkSet }) => (
-  <div className=" w-60">
+  <div 
+  className="md:w-60"
+  >
     <h4 className="font-comfortaa text-2xl text-green-dark my-5  font-semibold">
       {header}
     </h4>
-    <ul>
+    <ul 
+    // className="md:flex md:flex-wrap:nowrap"
+    >
       {linkSet.map((link) => (
         <Link href={link.href} key={`link-to-${link.href}`}>
           <li className="footercontenttxt transform hover:scale-105 duration-300 ease-in-out text-gray-gradlight text-lg my-4">{link.label}</li>
@@ -57,26 +61,9 @@ export default function Footer() {
     <div className="min-w-full head py-8">
       <div className=" m-navbarx  flex flex-col">
         <div className="w-full my-2 flex items-center justify-between">
-          <Image
-            src="/logo.png"
-            width={170} height={103}
-          />
-          <div className="" >
-            <h4 className="font-comfortaa text-right font-semibold">
-              <span className="footerconnect">
-              Connect with us
-              </span>
-            </h4>
-            <div className="flex items-right mt-2 ml-iconmarginleft">
-              <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
-              <Icon icon={faTwitter} href="https://twitter.com/team_crazynft" /> 
-              <Icon icon={faGithub} href="https://github.com/CrazyNFT" />
-              <Discord />
-            </div>
-          </div>
         </div>
         <div className="w-full h-1 rounded-full bg-green-dark mt-5" />
-        <div className="flex w-full mt-2">
+        <div className="md:flex md:flex-wrap:wrap">
           {footerLinks.map((item, indx) => (
             <FooterLinkCol {...item} key={`link-col-${indx + 1}`} />
           ))}
@@ -111,21 +98,4 @@ const footerLinks = [
       { label: "Help", href: "mailto:info@crazynft.tech?subject=click Help" },
     ],
   },
-  // {
-  //   header: "NFTS",
-  //   linkSet: [
-  //     { label: "Art NFT", href: "#" },
-  //     { label: "Game NFT", href: "#" },
-  //     { label: "Photography NFT", href: "#" },
-  //     { label: "Video NFT", href: "#" },
-  //     { label: "Music NFT", href: "#" },
-  //   ],
-  // },
-  // {
-  //   header: "Information",
-  //   linkSet: [
-  //     { label: "Terms of Service", href: "#" },
-  //     { label: "Privacy Policy", href: "#" },
-  //   ],
-  // },
 ];

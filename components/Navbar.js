@@ -6,6 +6,7 @@ import {
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
 function Icon({ icon, href }) {
   return (
@@ -38,19 +39,52 @@ function Telegram() {
 }
 
 const Navbar = () =>{
-    return (
+  const [dropdown,setDropdown] = useState(false)
+  return (
      <div className="head">
    <header class="text-gray-600 bg-gray-headerbg body-font ">
     <div class="container flex flex-wrap flex-col px-navbarx py-navbary md:flex-row items-center max-w-full">
     <a class="flex title-font font-medium items-center text-gray-900 transform hover:scale-105 duration-300 ease-in-out mb-4 md:mb-0">
     <Image  src="/logo.png" width={113.33} height={68.66} />
      </a>
-    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-headcontentleftmargin flex flex-wrap items-center text-base justify-center">
-    <Link href="/"><a class="mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyHOME</span></a></Link>
-    <Link href="/about"><a class="mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyTEAM</span></a></Link>
-    <Link href="https://medium.com/@crazynft"><a class="mr-5 hover:text-gray-900 transform hover:scale-105 duration-150 ease-in-out"><span className="txt">CrazyBLOG</span></a></Link>  
+     <button onClick={()=>setDropdown(!dropdown)} class=" 
+                    absolute
+                    top-0 right-0 
+                    inline-flex 
+                    items-center 
+                    text-white 
+                    ring-1 ring-indigo-300
+                    md:hidden
+                    border-0 
+                    w-auto
+                    h-buttonheight 
+                    py-1 px-3 mx-10
+                    px-2
+                    focus:outline-none 
+                    rounded 
+                    transform hover:scale-105
+                    duration-300 ease-in-out
+                    mt-4 md:mt-0"
+                    >
+            <span className="txt">\/</span>
+          </button>
+    <nav
+     class="w-full md:w-auto md:mr-auto md:ml-4 md:py-1 md:pl-headcontentleftmargin md:flex md:flex-wrap md:items-center md:text-base md:justify-center"
+    // className="flex flex-wrap:wrap"
+     >
+    <Link href="/"><a style={{display:dropdown?'none':'block'}}
+     class="w-full ring-0 md:w-auto mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 py-1 -my-2 md:mb-0 ease-in-out"
+     ><span className="txt">CrazyHOME</span></a></Link>
+     <br></br>
+    <Link href="/about"><a  style={{display:dropdown?'none':'block'}}
+    class="w-full ring-0 md:w-auto mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 py-1 mb-4 md:mb-2 ease-in-out"
+    ><span className="txt">CrazyTEAM</span></a></Link>
+    <Link href="https://medium.com/@crazynft"><a   style={{display:dropdown?'none':'block'}}
+    class="w-full ring-0 md:w-auto mr-headcontentmargin hover:text-gray-900 transform hover:scale-105 duration-150 py-1 mb-10 md:mb-auto ease-in-out"
+    ><span className="txt">CrazyBLOG</span></a></Link> 
+
    </nav>
-   <div className="flex items-center">
+   <div style={{display:dropdown?'none':'inline-flex'}} className="w-full md:w-auto  flex items-center">
               <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
               <Icon icon={faTwitter} href="https://twitter.com/team_crazynft" />
               <Icon icon={faGithub} href="https://github.com/CrazyNFT" />
@@ -78,7 +112,8 @@ const Navbar = () =>{
                     >
             <span className="txtw">Launch App</span>
           </button>
-          </Link>
+          </Link> 
+   
         </div>
       </header>
     </div>
