@@ -59,8 +59,27 @@ function Telegram() {
 export default function Footer() {
   return (
     <div className="min-w-full head py-8">
-      <div className=" m-navbarx  flex flex-col">
-        <div className="w-full my-2 flex items-center justify-between">
+      <div className=" m-navbarx flex flex-col">
+        <div className="md:w-full md:my-2 md:flex md:items-center md:justify-between">
+          <div className="w-full md:flex">
+        <Image
+            src="/logo.png"
+            width={170} height={103}
+          />
+          </div>
+          <div className="" >
+            <h4 className="font-comfortaa md:text-right text-left font-semibold">
+              <span className="footerconnect">
+              Connect with us
+              </span>
+            </h4>
+            <div className="flex md:items-right mt-2 md:ml-iconmarginleft">
+              <Icon icon={faLinkedinIn} href="https://www.linkedin.com/company/crazynft/" />
+              <Icon icon={faTwitter} href="https://twitter.com/team_crazynft" /> 
+              <Icon icon={faGithub} href="https://github.com/CrazyNFT" />
+              <Discord />
+            </div>
+          </div>
         </div>
         <div className="w-full h-1 rounded-full bg-green-dark mt-5" />
         <div className="md:flex md:flex-wrap:wrap">
