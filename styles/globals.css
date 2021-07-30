@@ -31,7 +31,7 @@ a {
   margin-right: auto;
 }
 
-.secondarybuttontxt{
+.secondarybuttontxt {
   font-family: "Comfortaa", cursive;
   text-align: center;
   font-weight: bold;
@@ -48,7 +48,7 @@ a {
   font-size: 18px;
 }
 
-.footercontenttxt:hover{
+.footercontenttxt:hover {
   font-family: "Comfortaa", cursive;
   color: darkslategray;
   text-align: left;
@@ -139,7 +139,6 @@ a {
   color: #288782;
 }
 
-
 .para {
   font-family: "Comfortaa", cursive;
   font-size: 20px;
@@ -193,7 +192,7 @@ a {
   margin-right: auto;
 }
 
-.cardbg{
+.cardbg {
   background-color: #45ddff;
 }
 
@@ -203,4 +202,19 @@ a {
 
 .logo-l-cropped {
   transform: translateX(-46px);
+}
+
+/* Timeline (Roadmap) Component Styles - Crzy Themeing */
+.vertical-timeline-element-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: #015050;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 0.938rem;
+}
+
+.vertical-timeline-element-description {
+  font-weight: 400 !important;
 }
