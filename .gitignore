@@ -1,2 +1,5 @@
 node_modules
 .next
+
+#firebase auth creds
+/pages/firebaseData/firedata.json
