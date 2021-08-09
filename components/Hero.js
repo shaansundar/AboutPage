@@ -66,7 +66,7 @@ function Hero(props) {
                     transform hover:scale-105 duration-300 ease-in-out
                     mt-4 md:mt-0"
                     >
-            <span className="secondarybuttontxt">Read Whitepaper</span>
+            <span className="secondarybuttontxt">Submit</span>
           </button>
       </div>
           
