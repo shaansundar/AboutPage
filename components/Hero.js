@@ -1,15 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import PropTypes from  "prop-types";
-import {saveEmail} from "../pages/services/emailFirebase";
-import { useState } from "react";
+import PropTypes from "prop-types";
+
+// services, helpers
+import saveEmail from '../pages/services/saveEmail'
+import validateEmail from "../pages/helpers/validateEmail"
 
 function Hero(props) {
 
-  const [email, updateEmail] = useState("Hello");
-  const save = () => {
-    updateEmail(document.getElementById("hero-field"));
-    saveEmail(email);
+  const [email, setEmail] = useState(null);
+
+  const save = async () => {
+    if (!email) {
+      alert('Enter something!!')
+      return
+    }
+
+    if (validateEmail(email)) {
+      try {
+        let res = await saveEmail(email)
+        if (res) {
+          setEmail('')
+          alert('Thanks!!')
+        }
+      } catch (err) {
+        alert('Something went wrong!!')
+      }
+    } else {
+      alert('Enter a valid email id!!')
+    }
+
   }
   return (
     <section className="text-gray-600 bg-gradient-to-r 
@@ -28,7 +48,7 @@ function Hero(props) {
             We are working on creating a free, fair, easy and a less intimidating NFT Marketplace, so that the layman may open thyself up to new ventures
           </p>
           <div className="flex justify-center">
-          {/*<Link href="https://prototype.crazynft.tech" passHref>
+            {/*<Link href="https://prototype.crazynft.tech" passHref>
            <button class=" 
                     inline-flex 
                     items-center 
@@ -51,15 +71,19 @@ function Hero(props) {
             <span className="txtw">Launch App</span>
           </button> 
           </Link>*/}
-        <div class="flex w-full md:justify-start justify-center items-end">
-        <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
-          <label for="hero-field" class="leading-7 text-sm text-gray-600">Placeholder</label>
-          <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-        </div>
-        {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
-        <button 
-                  onClick={save}
-                  class="
+            <div className="flex w-full md:justify-start justify-center items-end">
+              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+                <label for="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
+                <input type="text" id="hero-field" name="hero-field" 
+                  placeholder='Your email id'
+                  value={email} className="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
+                  onChange={(event) => setEmail(event.target.value)} 
+                />
+              </div>
+              {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
+              <button
+                onClick={save}
+                className="
                     inline-flex 
                     items-center  
                     bg-gray-headerbg
@@ -75,11 +99,11 @@ function Hero(props) {
                     rounded 
                     transform hover:scale-105 duration-300 ease-in-out
                     mt-4 md:mt-0"
-                    >
-            <span className="secondarybuttontxt">Submit</span>
-          </button>
-      </div>
-          
+              >
+                <span className="secondarybuttontxt">Submit</span>
+              </button>
+            </div>
+
           </div>
         </div>
       </div>
