@@ -2,4 +2,6 @@ node_modules
 .next
 
 #firebase auth creds
-/pages/firebaseData/firedata.json
+/pages/config/credentials.json
+
+.vscode
