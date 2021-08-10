@@ -1,2 +1,7 @@
 node_modules
 .next
+
+#firebase auth creds
+/pages/config/credentials.json
+
+.vscode
