@@ -1,25 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import PropTypes from  "prop-types";
-import {auth, db} from "../pages/firebaseData/setup";
+import {saveEmail} from "../pages/services/emailFirebase";
+import { useState } from "react";
 
 function Hero(props) {
-  const collectionID = "EmailCollection"; // Firebase collection 
-  
-  const saveEmail = async event => {
-    event.preventDefault();
-    var email = document.getElementById("hero-field").value; // GET input data
-    document.getElementById("hero-field").value = ""; // Clear input form
-    try {
-      const doc = db.collection(collectionID).doc(email);
-      pro = await doc.get();
-      if(!pro.exists) { // Check if said email already exists on firebase
-        await doc.set({email: email,}); //POST request to firebase
-      }
-      
-    } catch (err) {
-      console.log(err);
-    }
+
+  const [email, updateEmail] = useState("Hello");
+  const save = () => {
+    updateEmail(document.getElementById("hero-field"));
+    saveEmail(email);
   }
   return (
     <section className="text-gray-600 bg-gradient-to-r 
@@ -61,14 +51,14 @@ function Hero(props) {
             <span className="txtw">Launch App</span>
           </button> 
           </Link>*/}
-          <div class="flex w-full md:justify-start justify-center items-end">
+        <div class="flex w-full md:justify-start justify-center items-end">
         <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
           <label for="hero-field" class="leading-7 text-sm text-gray-600">Placeholder</label>
           <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
         </div>
         {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
         <button 
-                  onClick={saveEmail}
+                  onClick={save}
                   class="
                     inline-flex 
                     items-center  
