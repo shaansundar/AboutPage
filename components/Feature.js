@@ -20,7 +20,7 @@ function Icon({icon}) {
 
 function LightFeatureB(props) {
   return (
-    <section className="text-gray-600 body-font bg-gray-headerbg ">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="featureheading mb-4">
@@ -34,7 +34,7 @@ function LightFeatureB(props) {
           </div>
         </div>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 ">
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform">
             <div className={`w-auto h-auto  inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
             <Icon icon={faGift}/>
             </div>
@@ -47,7 +47,7 @@ function LightFeatureB(props) {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform">
           <div className={`w-auto h-auto inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
           <Icon icon={faTractor} />
             </div>
@@ -60,7 +60,7 @@ function LightFeatureB(props) {
               </p>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform hover:scale-105 duration-300 ease-in-out">
+          <div className="p-4 md:w-1/3 flex flex-col text-center items-center transform">
           <div className={`w-auto h-auto ease-in-out inline-flex items-center justify-center rounded-full bg-${props.theme}-100 text-${props.theme}-500 mb-8 flex-shrink-0`}>
           <Icon icon={faRocket} />
             </div>
