@@ -12,7 +12,7 @@ function Hero(props) {
 
   const save = async () => {
     if (!email) {
-      alert('Enter something!!')
+      alert('Please enter your Email!')
       return
     }
 
@@ -21,7 +21,7 @@ function Hero(props) {
         let res = await saveEmail(email)
         if (res) {
           setEmail('')
-          alert('Thanks!!')
+          alert('Thank you for enrolling!')
         }
       } catch (err) {
         alert('Something went wrong!!')
@@ -48,32 +48,9 @@ function Hero(props) {
             We are working on creating a free, fair, easy and a less intimidating NFT Marketplace, so that the layman may open thyself up to new ventures
           </p>
           <div className="flex justify-center">
-            {/*<Link href="https://prototype.crazynft.tech" passHref>
-           <button class=" 
-                    inline-flex 
-                    items-center 
-                    text-white 
-                    bg-gradient-to-r 
-                      from-green-dark 
-                      to-green-light 
-                      hover:from-gray-graddark 
-                      hover:to-gray-gradlight
-                    border-0 
-                    w-buttonwidth 
-                    h-buttonheight 
-                    py-1 px-3 
-                    focus:outline-none 
-                    rounded 
-                    
-                    transform hover:scale-105 duration-300 ease-in-out
-                    mt-4 md:mt-0"
-                    >
-            <span className="txtw">Launch App</span>
-          </button> 
-          </Link>*/}
             <div className="flex w-full md:justify-start justify-center items-end">
-              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
-                <label for="hero-field" className="leading-7 text-sm text-gray-600">Placeholder</label>
+              <div className="relative mr-4 lg:w-full xl:w-4/5 w-3/4">
+                <label for="hero-field" className="py-2 leading-7 text-base text-gray-headerbg">SignUp now to stay updated and earn <b>FREE!</b> NFT Credits</label>
                 <input type="text" id="hero-field" name="hero-field" 
                   placeholder='Your email id'
                   value={email} className="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" 
@@ -81,6 +58,7 @@ function Hero(props) {
                 />
               </div>
               {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
+              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
               <button
                 onClick={save}
                 className="
@@ -93,15 +71,16 @@ function Hero(props) {
                     text-gray-graddark
                     hover:text-gray-default
                     w-secondarybuttonwidth 
-                    h-buttonheight 
-                    py-1 px-3 
+                    h-secondarybuttonheight 
+                    py-1/2 px-2/3 
                     focus:outline-none 
                     rounded 
                     transform hover:scale-105 duration-300 ease-in-out
                     mt-4 md:mt-0"
               >
-                <span className="secondarybuttontxt">Submit</span>
+                <span className="secondarybuttontxt text-base">Submit</span>
               </button>
+              </div>
             </div>
 
           </div>

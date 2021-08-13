@@ -33,10 +33,11 @@ module.exports = {
     extend: {
       spacing: {
         buttonwidth: "190px",
-        secondarybuttonwidth: "220px",
+        secondarybuttonwidth: "50%",
         heroimgwidth:"512px",
         heroimgheight:"351.672px",
         buttonheight: "50px",
+        secondarybuttonheight: "40px",
         navbary: "22px",
         navbarx: "80px",
         headcontentmargin: "40px",

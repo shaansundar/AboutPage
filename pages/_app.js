@@ -2,6 +2,7 @@ import "react-vertical-timeline-component/style.min.css";
 import "../styles/globals.css";
 import "tailwindcss/tailwind.css";
 import Navbar from "../components/Navbar";
+import Annoucement from "../components/Annoucement";
 import Footer from "../components/Footer";
 import "@fortawesome/fontawesome-svg-core/styles.css"; // import Font Awesome CSS
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -33,6 +34,7 @@ function MyApp({ Component, pageProps }) {
         <title>CrazyNFT</title>
         <img src="/logo" />
       </head>
+      {/* <Annoucement /> */}
       <Navbar />
       <AnimateSharedLayout>
         <Component {...pageProps} />
