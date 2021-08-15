@@ -4,6 +4,7 @@ import {
 } from "react-vertical-timeline-component";
 import PropTypes from  "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCogs, faBullhorn, faChartLine } from "@fortawesome/free-solid-svg-icons";
 
 export default function RoadMap() {
   return (
@@ -28,7 +29,7 @@ export default function RoadMap() {
           contentArrowStyle={{ borderRight: "7px solid rgb(40, 135, 130)" }}
           date={goal.date}
           iconStyle={{ background: "rgb(40, 135, 130)", color: "#fff" }}
-          icon={<FontAwesomeIcon icon={goal.icon} />}
+          icon={<FontAwesomeIcon icon={goal.icon} size="lg" color="#e4f1f1" />}
         >
           <h3 className="vertical-timeline-element-title">{goal.title}</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -48,22 +49,31 @@ export default function RoadMap() {
 
 const TimelineData = [
   {
-    key: "goal-1",
-    date: "2020 - 2021",
-    icon: "faCoffee",
-    title: "Title filler",
-    subtitle: "Subtitle filler",
+    key: "Phase 1",
+    date: "Q2 2021 - Q3 2021",
+    icon: faCogs,
+    title: "Genesis Production",
+    subtitle: "Includes branding, building POC and coming out with solid prototyping",
     description:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "",
   },
   {
-    key: "goal-2",
-    date: "2022 - 2022",
-    icon: "faCoffee",
-    title: "Title filler",
-    subtitle: "Subtitle filler",
+    key: "Phase 2",
+    date: "Q3 2021 - Q1 2022",
+    icon: faBullhorn,
+    title: "The BUIDL time",
+    subtitle: "The production time to build the MVP and begin marketing",
     description:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+      "",
+  },
+  {
+    key: "Phase 3",
+    date: "Q2 2022 - Q4 2022",
+    icon: faChartLine,
+    title: "V2 Phase",
+    subtitle: "Time utilized to advance the MVP by adding quirks and features",
+    description:
+      "",
   },
 ];
 
